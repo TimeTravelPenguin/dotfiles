@@ -1,0 +1,31 @@
+line-length = 120
+fix = true
+target-version = "py312"
+
+[format]
+docstring-code-format = true
+
+[lint]
+extend-select = [
+  "F",
+  "I",
+  "E",
+  "W",
+  "D",
+  "S",
+  "G",
+  "C4",
+  "UP",
+  "ANN",
+  "B9",
+  "A00",
+  "PT",
+  "SIM",
+  "RUF",
+
+]
+extend-ignore = ["ANN101", "ANN401", "D1"]
+unfixable = ["B"]
+
+[lint.pydocstyle]
+convention = "numpy"

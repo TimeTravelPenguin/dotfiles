@@ -1,0 +1,5 @@
+[user]
+        name = TimeTravelPenguin
+        email = TimeTravelPenguin@gmail.com
+[credential]
+        helper = osxkeychain
