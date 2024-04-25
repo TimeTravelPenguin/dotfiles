@@ -10,3 +10,5 @@ alias tree='exa -s type --group-directories-first --tree --icons --colour-scale'
 alias treeh='exa -s type --group-directories-first --tree --icons --colour-scale -L 2'
 alias gtree='exa --git-ignore -s type --group-directories-first --tree --icons --color-scale'
 alias gtreeh='exa --git-ignore -s type --group-directories-first --tree --icons --color-scale -L 2'
+
+alias brewup='brew update && brew upgrade && brew cu -a --cleanup'
